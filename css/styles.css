@@ -1,0 +1,135 @@
+body {
+  font-family: "Montserrat";
+}
+
+i {
+  margin: 15px 55px;
+}
+
+#title {
+  background-color: #af0404;
+}
+#features {
+  margin: 30px auto;
+}
+
+#testimonials {
+  margin-top: 50px;
+}
+
+#testimonials2 {
+  margin-top: 15px;
+}
+
+#testimonials3 {
+  margin-top: 15px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+}
+
+.mamute-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.main-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.main-title2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.second-title {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
+
+.second-title2 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: white;
+}
+.row {
+  padding: 0 20%;
+  text-align: center;
+  margin: 0 !important;
+}
+
+.options {
+  padding: 0 30%;
+}
+
+.icon {
+  color: #af0404;
+  margin: 7% auto;
+  text-align: center;
+}
+
+.icon:hover {
+  color: #ff0000;
+}
+
+.icon-bar {
+  text-align: center;
+}
+
+.img {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.img-bot {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 300px;
+  height: 300px;
+}
+.img-top {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  width: 300px;
+  height: 300px;
+}
+.img .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  transition: all 0.7s ease;
+}
+.img:hover .img-top {
+  display: inline;
+}
+
+.carousel-item {
+  transition: transform 0.10s ease-in-out;
+}
+
+.carousel-inner img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.bg-color {
+  background-image: linear-gradient(180deg, #af0404, #980303);
+}
+.bg-color2 {
+  background-image: linear-gradient(180deg, #980303, #8e0303);
+}
+.bg-color3 {
+  background-image: linear-gradient(180deg, #8e0303, #af0404);
+}
